@@ -1,0 +1,17 @@
+import Foundation
+
+class LeapYear
+{
+  func isLeapYear(Year : Int )
+  {
+     if Year % 400 == 0 || (Year % 4 == 0 && Year % 100 != 0)
+	 {
+	 print(Leap Year)
+	 }
+	 else
+	 {
+	 print(not a leap Year)
+	 }
+  }
+  func isLeapYear(Year : 1996 )
+  }
